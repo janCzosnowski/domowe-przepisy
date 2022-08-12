@@ -1,0 +1,62 @@
+* div.content{
+    height: 1200px;
+}
+.introduction{
+    display: flex;
+    height: 300px;
+    justify-content: stretch;
+    margin-left:-8px;
+    margin-right:-8px;
+    background-color: #333;
+    justify-content: space-evenly;
+}
+* img.Logo{
+width: 80px;
+height: 80px;
+}
+.introduction .text{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    justify-content:space-evenly;
+}
+*.introduction .child{
+    background-color: #333;
+    margin:12px;
+}
+* footer{
+    text-align: center;
+    background-color: grey;
+    padding:12px;
+    margin:0px;
+}
+*{
+    background-color:lightgray;
+    font-family: "Quicksand", sans-serif;
+}
+
+a.button button{
+    background-color: grey;
+    font-size: 2em;
+}
+.header{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header span{
+    margin: 12px;
+}
+.header a{
+    text-decoration: none; 
+    decoration: none; 
+    color:black;
+}
+.contents{
+    display: flex;
+}
+div{
+    margin:6px;
+}
+
