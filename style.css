@@ -1,5 +1,6 @@
-* div.content{
+* div.content iframe{
     height: 1200px;
+    width:100vw;
 }
 .introduction{
     display: flex;
@@ -7,7 +8,7 @@
     justify-content: stretch;
     margin-left:-8px;
     margin-right:-8px;
-    background-color: #333;
+    background-color: #b99;
     justify-content: space-evenly;
 }
 * img.Logo{
@@ -21,7 +22,7 @@ height: 80px;
     justify-content:space-evenly;
 }
 *.introduction .child{
-    background-color: #333;
+    background-color: #b99;
     margin:12px;
 }
 * footer{
@@ -31,7 +32,7 @@ height: 80px;
     margin:0px;
 }
 *{
-    background-color:lightgray;
+    background-color:blanchedalmond;
     font-family: "Quicksand", sans-serif;
 }
 
@@ -49,8 +50,7 @@ a.button button{
     margin: 12px;
 }
 .header a{
-    text-decoration: none; 
-    decoration: none; 
+    text-decoration: none;
     color:black;
 }
 .contents{
